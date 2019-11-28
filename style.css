@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+button {
+  border: none;
+
+}
+
+.body-container {
+  padding: 2rem;
+}
+
+.card-container {
+  display: block;
+}
+
+.flashcard {
+  max-width: 400px;
+  width: 400px;
+  height: 310px;
+  border: 1px solid #ccc;
+  padding: 100px;
+  margin: 60px auto;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  background-color: #2c46ff;
+  color: #ff8a0d;
+  border-radius: 10%;
+}
+
+
+#question-info {
+  display: block;
+  font-size: 40px;
+}
+#answer-info {
+  display: none;
+}
+.form {
+  display: none;
+  width: 600px;
+  height: 480px;
+  background-color: pink;
+  border-radius: 10%;
+  z-index: 99;
+  position: relative;
+  margin: 0 auto;
+  transform: translate(-33.5%, 0);
+  padding: 2rem;
+}
+
+#edit {
+  display: block;
+  position: absolute;
+  top: 85%;
+  right: 85%;
+  z-index: 1;
+}
+#delete {
+  display: block;
+  position: absolute;
+  top: 85%;
+  left: 85%;
+  z-index: 1;
+}
+
+#next {
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  left: 28rem;
+  bottom: 8rem;
+}
+#previous {
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  right: 28rem;
+  bottom: 8rem;
+}
+img {
+  height: 50px;
+}
+
+#create {
+  font-size: 1.2rem;
+}

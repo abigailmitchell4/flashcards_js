@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla:700&display=swap" rel="stylesheet">
+
+    <title>Flashcards</title>
+  </head>
+
+  <body>
+    <div class="body-container">
+      <h1>ES6 JS Flashcards</h1>
+
+      <div class="card-container">
+        <div class="flashcard" >
+          <!-- <h4 id="card" class="text-input"></h4> -->
+          <div id="content">
+            <h3 id="question-info"></h3>
+            <h4 id="answer-info"></h4>
+          </div>
+          <div class="form">
+            <form></form>
+          </div>
+          <!-- <form>
+              Question:<br>
+              <input type="text" name="Question" value="">
+              <br>
+              Answer:<br>
+              <input type="text" name="Answer" value="">
+              <br>
+              <input type="submit" value="Create">
+          </form> -->
+          
+          <button id="next">
+            <img id="next-arrow" src="images/arrow-right.png"/>
+          </button>
+          <button id="previous">
+            <img id="prev-arrow" src="images/arrow-left.png"/>
+          </button>
+          <div class="btns">
+            <button id="edit">Edit</button>
+            <button id="delete">Delete</button>
+          </div>
+        </div>
+      </div>
+
+      <button id="create">New Flashcard</button>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
